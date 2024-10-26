@@ -22,7 +22,7 @@ DEFAULT_CONFIG = {
     "AUTO_ERROR_REPORT_WEBHOOK": '',
     "INTERACTION_COMMAND_ONLY": False,
     "PRESENCE_INTERVAL": 900,
-    "SOURCE_REPO": "https://github.com/NICK-FURY-6023/galaxy-new-patch-1.9.0.0.git",
+    "SOURCE_REPO": "https://github.com/NICK-FURY-6023/GALAXY-12.0.git",
     "SUPPORT_SERVER": "",
     "ADDITIONAL_BOT_IDS": "",
     "INVITE_PERMISSIONS": 332892794064,
