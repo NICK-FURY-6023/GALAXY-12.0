@@ -1,0 +1,1060 @@
+[
+    {
+        "type": 1,
+        "name": "247",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": "32",
+        "description": "[\ud83c\udfb6 Music] | Toggle 24/7 mode of the Player (In testing).",
+        "options": []
+    },
+    {
+        "type": 2,
+        "name": "Add DJ",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "name_localizations": {
+            "pt-BR": "Adicionar DJ"
+        }
+    },
+    {
+        "type": 2,
+        "name": "Avatar",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null
+    },
+    {
+        "type": 1,
+        "name": "about",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83d\udd30 Miscellaneous] | Display information about me.",
+        "options": []
+    },
+    {
+        "type": 3,
+        "name": "add to queue",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null
+    },
+    {
+        "type": 1,
+        "name": "add_dj",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Add a member to the DJ list of the current Player session.",
+        "options": [
+            {
+                "name": "member",
+                "description": "Member to be added.",
+                "type": 6,
+                "required": true
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "add_dj_role",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": "32",
+        "description": "[\ud83d\udd27 Settings] | Add a role to server's DJ list.",
+        "options": [
+            {
+                "name": "role",
+                "description": "Role",
+                "type": 8,
+                "required": true
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "autoplay",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Toggle autoplay at the end of the queue.",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "back",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Return to the previous song.",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "change_node",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Migrate the Player to another music server.",
+        "options": [
+            {
+                "name": "server",
+                "description": "Music server",
+                "type": 3,
+                "required": true,
+                "autocomplete": true
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "change_skin",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": "32",
+        "description": "[\ud83d\udd27 Settings] | Change Player skin.",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "connect",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Connect me to a voice channel (or move me to one).",
+        "options": [
+            {
+                "name": "channel",
+                "description": "Channel to connect me to",
+                "type": 7,
+                "required": true,
+                "channel_types": [
+                    2,
+                    13
+                ]
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "controller",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Send Player controller to a specific/current channel.",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "custom_skin",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": "8",
+        "description": "[\ud83d\udd27 Settings] | Create your own skins/templates for the Player.",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "fav_manager",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Manage your favorites/integrations and server links.",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "invite",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83d\udd30 Miscellaneous] | Display my invite link for you to add me to your server.",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "lastfm",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfa7 LastFM] | Connect your last.fm account",
+        "options": [
+            {
+                "name": "recent_songs",
+                "description": "Number of recent songs to be displayed.",
+                "type": 4,
+                "min_value": 0,
+                "max_value": 7
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "loop_amount",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Set the number of loops for the current song.",
+        "options": [
+            {
+                "name": "value",
+                "description": "number of loops.",
+                "type": 4,
+                "required": true
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "loop_mode",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Select loop mode between: current / queue or off.",
+        "options": [
+            {
+                "name": "mode",
+                "description": "-",
+                "type": 3,
+                "required": true,
+                "choices": [
+                    {
+                        "name": "Current",
+                        "value": "current",
+                        "name_localizations": {
+                            "pt-BR": "M\u00fasica Atual"
+                        }
+                    },
+                    {
+                        "name": "Off",
+                        "value": "off",
+                        "name_localizations": {
+                            "pt-BR": "Desativar"
+                        }
+                    },
+                    {
+                        "name": "Queue",
+                        "value": "queue",
+                        "name_localizations": {
+                            "pt-BR": "Fila"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "move",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Move songs from the queue.",
+        "options": [
+            {
+                "name": "playlist",
+                "description": "Include any name that appears in the playlist.",
+                "type": 3,
+                "autocomplete": true
+            },
+            {
+                "name": "uploader",
+                "description": "Include the name of the song author/artist/uploader.",
+                "type": 3,
+                "autocomplete": true
+            },
+            {
+                "name": "name",
+                "description": "Include the name of the song.",
+                "type": 3,
+                "autocomplete": true
+            },
+            {
+                "name": "final_position",
+                "description": "Add songs from the queue up to the specified position.",
+                "type": 4,
+                "min_value": 1,
+                "max_value": 500
+            },
+            {
+                "name": "initial_position",
+                "description": "Add songs to the queue starting from a specific position.",
+                "type": 4,
+                "min_value": 1,
+                "max_value": 500
+            },
+            {
+                "name": "position",
+                "description": "Destination position in the queue (Optional).",
+                "type": 4,
+                "min_value": 1,
+                "max_value": 900
+            },
+            {
+                "name": "duplicates",
+                "description": "Include duplicate songs",
+                "type": 5
+            },
+            {
+                "name": "absent_members",
+                "description": "Include songs added by members who have left the channel.",
+                "type": 5
+            },
+            {
+                "name": "member",
+                "description": "Include songs requested by the selected member.",
+                "type": 6
+            },
+            {
+                "name": "min_duration",
+                "description": "Include songs with duration above/equal to (ex. 1:23).",
+                "type": 3
+            },
+            {
+                "name": "max_duration",
+                "description": "Include songs with specified maximum duration (ex. 1:45).",
+                "type": 3
+            },
+            {
+                "name": "amount",
+                "description": "Number of songs to move.",
+                "type": 4,
+                "min_value": 0,
+                "max_value": 99
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "nightcore",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Enable/Disable the nightcore effect (Accelerated music with higher pitch).",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "nodeinfo",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83d\udd27 Settings] | View information about the music servers (lavalink servers).",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "now_playing",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Display information about the currently playing song (on any server).",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "pause",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Pause the music.",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "play",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Play music in a voice channel.",
+        "options": [
+            {
+                "name": "search",
+                "description": "Name or link of the music.",
+                "type": 3,
+                "required": true,
+                "autocomplete": true
+            },
+            {
+                "name": "position",
+                "description": "Place the music in a specific position",
+                "type": 4
+            },
+            {
+                "name": "play_now",
+                "description": "Play the music immediately (instead of adding it to the queue).",
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "Yes",
+                        "value": "yes",
+                        "name_localizations": {
+                            "pt-BR": "Sim"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "manual_selection",
+                "description": "Choose a music manually from the search results",
+                "type": 5
+            },
+            {
+                "name": "options",
+                "description": "Options to process playlist",
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "Reverse Playlist",
+                        "value": "reversed"
+                    },
+                    {
+                        "name": "Shuffle Playlist",
+                        "value": "shuffle"
+                    }
+                ]
+            },
+            {
+                "name": "repetitions",
+                "description": "Set the number of repetitions.",
+                "type": 4
+            },
+            {
+                "name": "server",
+                "description": "Use a specific music server in the search.",
+                "type": 3,
+                "autocomplete": true
+            },
+            {
+                "name": "select_bot",
+                "description": "Select an available bot manually.",
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "Yes",
+                        "value": "yes",
+                        "name_localizations": {
+                            "pt-BR": "Sim"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "play_music_file",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Play music file in a voice channel.",
+        "options": [
+            {
+                "name": "play_now",
+                "description": "Play the music immediately (instead of adding to the queue).",
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "Yes",
+                        "value": "yes",
+                        "name_localizations": {
+                            "pt-BR": "Sim"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "select_bot",
+                "description": "Select an available bot manually.",
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "Yes",
+                        "value": "yes",
+                        "name_localizations": {
+                            "pt-BR": "Sim"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "position",
+                "description": "Place the music in a specific position",
+                "type": 4
+            },
+            {
+                "name": "server",
+                "description": "Use a specific music server in the search.",
+                "type": 3
+            },
+            {
+                "name": "file",
+                "description": "audio file to play or add to the queue",
+                "type": 11,
+                "required": true
+            },
+            {
+                "name": "repetitions",
+                "description": "set the number of repetitions.",
+                "type": 4
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "player_settings",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": "32",
+        "description": "[\ud83d\udd27 Settings] | Change some default player settings.",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "queue",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "-",
+        "options": [
+            {
+                "name": "clear",
+                "description": "[\ud83c\udfb6 Music] | Clean the music queue.",
+                "type": 1,
+                "options": [
+                    {
+                        "name": "playlist",
+                        "description": "Include the name of the playlist.",
+                        "type": 3,
+                        "autocomplete": true
+                    },
+                    {
+                        "name": "uploader",
+                        "description": "Include the name of the song author/artist/uploader.",
+                        "type": 3,
+                        "autocomplete": true
+                    },
+                    {
+                        "name": "initial_position",
+                        "description": "Add songs from the queue starting from a specific position.",
+                        "type": 4,
+                        "min_value": 1,
+                        "max_value": 500
+                    },
+                    {
+                        "name": "final_position",
+                        "description": "Add songs from the queue up to the specified position.",
+                        "type": 4,
+                        "min_value": 1,
+                        "max_value": 500
+                    },
+                    {
+                        "name": "duplicates",
+                        "description": "Include duplicate songs",
+                        "type": 5
+                    },
+                    {
+                        "name": "absent_members",
+                        "description": "Include songs added by members who have left the channel.",
+                        "type": 5
+                    },
+                    {
+                        "name": "member",
+                        "description": "Include songs requested by the selected member.",
+                        "type": 6
+                    },
+                    {
+                        "name": "min_duration",
+                        "description": "Include songs with duration above/equal to (ex. 1:23).",
+                        "type": 3
+                    },
+                    {
+                        "name": "max_duration",
+                        "description": "Include songs with specified maximum duration (ex. 1:45).",
+                        "type": 3
+                    },
+                    {
+                        "name": "name",
+                        "description": "Include the name of the song.",
+                        "type": 3
+                    },
+                    {
+                        "name": "amount",
+                        "description": "Number of songs to clear.",
+                        "type": 4,
+                        "min_value": 0,
+                        "max_value": 99
+                    }
+                ]
+            },
+            {
+                "name": "display",
+                "description": "[\ud83c\udfb6 Music] | Display the songs in the queue.",
+                "type": 1
+            },
+            {
+                "name": "reverse",
+                "description": "[\ud83c\udfb6 Music] | Reverse the order of songs in the queue",
+                "type": 1
+            },
+            {
+                "name": "shuffle",
+                "description": "[\ud83c\udfb6 Music] | Shuffle the queue",
+                "type": 1
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "readd_songs",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Re-add the played songs to the queue.",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "remove",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Remove a specific song from the queue.",
+        "options": [
+            {
+                "name": "name",
+                "description": "Full song name.",
+                "type": 3,
+                "required": true,
+                "autocomplete": true
+            },
+            {
+                "name": "exact_name",
+                "description": "Search for songs with the exact phrase in the song name instead of searching word by word.",
+                "type": 5
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "remove_dj",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Remove a member from the DJ list of the current Player session.",
+        "options": [
+            {
+                "name": "member",
+                "description": "Member to be removed.",
+                "type": 6,
+                "required": true
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "remove_dj_role",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": "32",
+        "description": "[\ud83d\udd27 Settings] | Remove a role from server's DJ list.",
+        "options": [
+            {
+                "name": "role",
+                "description": "Role",
+                "type": 8,
+                "required": true
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "reset",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": "32",
+        "description": "[\ud83d\udd27 Settings] | Reset the settings related to the music request channel (song request).",
+        "options": [
+            {
+                "name": "delete_channel",
+                "description": "delete the Player Controller channel",
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "no",
+                        "value": "no"
+                    },
+                    {
+                        "name": "yes",
+                        "value": "yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "restrict_mode",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Enable/Disable restricted mode for commands that require DJ/Staff.",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "resume",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Resume/Unpause the music.",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "rich_presence",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83d\udd27 settings] | Activate/Disable the Rich-Presence System in your status.",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "rotate",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Rotate the queue to the specified song.",
+        "options": [
+            {
+                "name": "name",
+                "description": "Full name of the song.",
+                "type": 3,
+                "required": true,
+                "autocomplete": true
+            },
+            {
+                "name": "exact_name",
+                "description": "Search for songs with the exact phrase in the song name instead of searching word by word.",
+                "type": 5
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "save_queue",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Experimental: Save the current song and queue to reuse them at any time.",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "search",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Search for music and choose one from the results to play.",
+        "options": [
+            {
+                "name": "search",
+                "description": "Name or link of the music.",
+                "type": 3,
+                "required": true,
+                "autocomplete": true
+            },
+            {
+                "name": "position",
+                "description": "Place the music in a specific position",
+                "type": 4
+            },
+            {
+                "name": "play_now",
+                "description": "Play the music immediately (instead of adding it to the queue).",
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "Yes",
+                        "value": "yes",
+                        "name_localizations": {
+                            "pt-BR": "Sim"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "options",
+                "description": "Options to process playlist",
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "Reverse Playlist",
+                        "value": "reversed"
+                    },
+                    {
+                        "name": "Shuffle Playlist",
+                        "value": "shuffle"
+                    }
+                ]
+            },
+            {
+                "name": "repetitions",
+                "description": "Set the number of repetitions.",
+                "type": 4
+            },
+            {
+                "name": "server",
+                "description": "Use a specific music server for the search.",
+                "type": 3,
+                "autocomplete": true
+            },
+            {
+                "name": "select_bot",
+                "description": "Select an available bot manually.",
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "Yes",
+                        "value": "yes",
+                        "name_localizations": {
+                            "pt-BR": "Sim"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "seek",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Skip/Resume the music to a specific time.",
+        "options": [
+            {
+                "name": "time",
+                "description": "Time to skip/resume (ex: 1:45 / 40 / 0:30)",
+                "type": 3,
+                "required": true,
+                "autocomplete": true
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "set_voice_status",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": "32",
+        "description": "[\ud83c\udfb6 Music] | Enable/edit the automatic announcement/status system of the channel with the song name.",
+        "options": [
+            {
+                "name": "model",
+                "description": "Please specify manually a status model (include placeholders).",
+                "type": 3,
+                "autocomplete": true
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "setup",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": "32",
+        "description": "[\ud83d\udd27 Settings] | Create/choose a dedicated channel for requesting music and pinning the Player.",
+        "options": [
+            {
+                "name": "channel",
+                "description": "Select an existing channel",
+                "type": 7,
+                "channel_types": [
+                    0,
+                    2,
+                    5,
+                    13,
+                    15
+                ]
+            },
+            {
+                "name": "clean_messages",
+                "description": "Clean selected channel messages (up to 100 messages, not effective in forum).",
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "No",
+                        "value": "no",
+                        "name_localizations": {
+                            "pt-BR": "N\u00e3o"
+                        }
+                    },
+                    {
+                        "name": "Yes",
+                        "value": "yes",
+                        "name_localizations": {
+                            "pt-BR": "Sim"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "skip",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Skip the current song that is playing.",
+        "options": [
+            {
+                "name": "name",
+                "description": "Name of the song (complete or part of it).",
+                "type": 3,
+                "autocomplete": true
+            },
+            {
+                "name": "play_only",
+                "description": "Just play the music immediately (without rotating the file)",
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "Yes",
+                        "value": "yes",
+                        "name_localizations": {
+                            "pt-BR": "Sim"
+                        }
+                    }
+                ],
+                "name_localizations": {
+                    "pt-BR": "tocar_apenas"
+                }
+            },
+            {
+                "name": "exact_name",
+                "description": "Search for songs with the exact phrase in the song title instead of searching word by word.",
+                "type": 5
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "skipto",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Jump to a specific song in the queue.",
+        "options": [
+            {
+                "name": "name",
+                "description": "Name of the song (complete or part of it).",
+                "type": 3,
+                "required": true,
+                "autocomplete": true
+            },
+            {
+                "name": "exact_name",
+                "description": "Search for songs with the exact phrase in the song title instead of searching word by word.",
+                "type": 5
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "song_request_thread",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Create a temporary thread/conversation for song requests",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "stop",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Stop the player and disconnect me from the voice channel.",
+        "options": []
+    },
+    {
+        "type": 1,
+        "name": "volume",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Adjust music volume.",
+        "options": [
+            {
+                "name": "level",
+                "description": "level between 5 and 150",
+                "type": 4,
+                "required": true,
+                "min_value": 5,
+                "max_value": 150
+            }
+        ]
+    },
+    {
+        "type": 1,
+        "name": "voteskip",
+        "dm_permission": false,
+        "default_permission": true,
+        "nsfw": false,
+        "default_member_permissions": null,
+        "description": "[\ud83c\udfb6 Music] | Vote to skip the current song.",
+        "options": []
+    }
+]
