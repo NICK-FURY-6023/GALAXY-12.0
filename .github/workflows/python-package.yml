@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.9", "3.10"]
+        python-version: ["3.9", "3.10", "3.11"]
 
     steps:
       # Step 1: Checkout the code
@@ -48,7 +48,9 @@ jobs:
           # Relaxed linting for warnings, with a max line length of 127 and complexity limit of 10
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
-      # Step 6: Run tests with pytest
+      # Step 6: Run tests with pytest, handling exit code 5 if no tests are found
       - name: Test with pytest
         run: |
-          pytest
+          pytest || exit_code=$?
+          if [ "$exit_code" -ne 0 ] && [ "$exit_code" -ne 5 ]; then exit $exit_code; fi
+          
